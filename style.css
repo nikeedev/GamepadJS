@@ -1,4 +1,8 @@
-#btns {
-    text-align: center;
-    line-height: 50px;
+:root {
+    --size: 50px;
+}
+
+#box {
+    width: var(--size);
+    height: var(--size);
 }
